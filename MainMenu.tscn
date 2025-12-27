@@ -1,0 +1,70 @@
+[gd_scene load_steps=2 format=3 uid="uid://dkbf4l4mgponq"]
+
+[ext_resource type="Texture2D" uid="uid://cfa3yn7ffvw3n" path="res://Retoria Logo Wordmark.png" id="1_i26rj"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1151.0
+offset_bottom = 647.0
+
+[node name="HostButton" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 270.0
+offset_top = 199.0
+offset_right = 541.0
+offset_bottom = 246.0
+text = "HOST"
+
+[node name="JoinButton" type="Button" parent="Control/HostButton"]
+layout_mode = 0
+offset_left = 309.0
+offset_top = 1.0
+offset_right = 580.0
+offset_bottom = 48.0
+text = "JOIN
+"
+
+[node name="PortLabel" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 559.0
+offset_top = 286.0
+offset_right = 605.0
+offset_bottom = 309.0
+text = "PORT"
+
+[node name="IPInput" type="LineEdit" parent="Control/PortLabel"]
+layout_mode = 0
+offset_left = 36.0
+offset_top = -33.0
+offset_right = 177.0
+offset_bottom = -2.0
+placeholder_text = "IP"
+
+[node name="SloganLabel" type="RichTextLabel" parent="Control"]
+layout_mode = 0
+offset_left = 319.0
+offset_top = 145.0
+offset_right = 752.0
+offset_bottom = 185.0
+text = "THE 3D SANDBOX GAMING PLATFORM"
+
+[node name="RetoriaLogoWordmark" type="Sprite2D" parent="."]
+position = Vector2(523, 92)
+texture = ExtResource("1_i26rj")
+
+[node name="IPLabel" type="Label" parent="."]
+offset_left = 559.0
+offset_top = 257.0
+offset_right = 582.0
+offset_bottom = 281.0
+text = "IP"
+
+[node name="PortInput" type="LineEdit" parent="."]
+offset_left = 609.0
+offset_top = 287.0
+offset_right = 750.0
+offset_bottom = 318.0
+placeholder_text = "PORT"
