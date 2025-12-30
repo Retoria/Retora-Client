@@ -51,6 +51,14 @@ offset_right = 752.0
 offset_bottom = 185.0
 text = "THE 3D SANDBOX GAMING PLATFORM"
 
+[node name="SettingsButton" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 428.0
+offset_top = 433.0
+offset_right = 699.0
+offset_bottom = 480.0
+text = "SETTINGS"
+
 [node name="RetoriaLogoWordmark" type="Sprite2D" parent="."]
 position = Vector2(523, 92)
 texture = ExtResource("1_i26rj")
